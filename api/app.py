@@ -4,6 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 import unicodedata
 import re
+import os
 
 # Import từ file gộp mới
 from api.weather_services import (
@@ -23,7 +24,7 @@ from services.bulletin import generate_bulletin
 OWM = WeatherSource(
     name="openweather",
     base_url="https://api.openweathermap.org/data/2.5",
-    api_key="e994c2a8d2715e00122f270bca5dbad0"
+    api_key=os.getenv("OWM_API_KEY")
 )
 
 # Khởi tạo ứng dụng FastAPI
