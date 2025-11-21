@@ -1,0 +1,1227 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Hải Châu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.22,
+          16.0678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Hòa Cường"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2225,
+          16.0678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Thanh Khê"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.225,
+          16.0678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường An Khê"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2275,
+          16.0678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường An Hải"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.23,
+          16.0678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Sơn Trà"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2325,
+          16.0678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Ngũ Hành Sơn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.235,
+          16.0678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Hòa Khánh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2375,
+          16.0678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Hải Vân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.24,
+          16.0678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Liên Chiểu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2425,
+          16.0678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Cẩm Lệ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.22,
+          16.0698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Hòa Xuân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2225,
+          16.0698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Tam Kỳ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.225,
+          16.0698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Quảng Phú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2275,
+          16.0698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Hương Trà"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.23,
+          16.0698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Bàn Thạch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2325,
+          16.0698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Điện Bàn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.235,
+          16.0698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Điện Bàn Đông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2375,
+          16.0698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường An Thắng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.24,
+          16.0698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Điện Bàn Bắc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2425,
+          16.0698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Hội An"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.22,
+          16.0718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Hội An Đông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2225,
+          16.0718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phường Hội An Tây"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.225,
+          16.0718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Hòa Vang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2275,
+          16.0718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Hòa Tiến"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.23,
+          16.0718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Bà Nà"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2325,
+          16.0718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Núi Thành"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.235,
+          16.0718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Tam Mỹ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2375,
+          16.0718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Tam Anh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.24,
+          16.0718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Đức Phú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2425,
+          16.0718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Tam Xuân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.22,
+          16.0738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Tây Hồ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2225,
+          16.0738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Chiên Đàn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.225,
+          16.0738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Phú Ninh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2275,
+          16.0738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Lãnh Ngọc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.23,
+          16.0738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Tiên Phước"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2325,
+          16.0738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Thạnh Bình"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.235,
+          16.0738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Sơn Cẩm Hà"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2375,
+          16.0738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Trà Liên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.24,
+          16.0738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Trà Giáp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2425,
+          16.0738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Trà Tân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.22,
+          16.0758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Trà Đốc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2225,
+          16.0758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Trà My"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.225,
+          16.0758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Nam Trà My"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2275,
+          16.0758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Trà Tập"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.23,
+          16.0758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Trà Vân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2325,
+          16.0758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Trà Linh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.235,
+          16.0758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Trà Leng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2375,
+          16.0758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Thăng Bình"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.24,
+          16.0758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Thăng An"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2425,
+          16.0758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Thăng Trường"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.22,
+          16.0778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Thăng Điền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2225,
+          16.0778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Thăng Phú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.225,
+          16.0778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Đồng Dương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2275,
+          16.0778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Quế Sơn Trung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.23,
+          16.0778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Quế Sơn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2325,
+          16.0778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Xuân Phú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.235,
+          16.0778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Nông Sơn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2375,
+          16.0778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Quế Phước"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.24,
+          16.0778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Duy Nghĩa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2425,
+          16.0778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Nam Phước"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.22,
+          16.0798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Duy Xuyên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2225,
+          16.0798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Thu Bồn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.225,
+          16.0798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Điện Bàn Tây"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2275,
+          16.0798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Gò Nổi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.23,
+          16.0798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Đại Lộc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2325,
+          16.0798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Hà Nha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.235,
+          16.0798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Thượng Đức"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2375,
+          16.0798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Vu Gia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.24,
+          16.0798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Phú Thuận"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2425,
+          16.0798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Thạnh Mỹ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.22,
+          16.0818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Bến Giằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2225,
+          16.0818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Nam Giang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.225,
+          16.0818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Đắc Pring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2275,
+          16.0818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã La Dêê"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.23,
+          16.0818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã La Êê"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2325,
+          16.0818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Sông Vàng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.235,
+          16.0818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Sông Kôn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2375,
+          16.0818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Đông Giang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.24,
+          16.0818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Bến Hiên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2425,
+          16.0818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Avương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.22,
+          16.0838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Tây Giang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2225,
+          16.0838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Hùng Sơn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.225,
+          16.0838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Hiệp Đức"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2275,
+          16.0838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Việt An"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.23,
+          16.0838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Phước Trà"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2325,
+          16.0838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Khâm Đức"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.235,
+          16.0838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Phước Năng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2375,
+          16.0838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Phước Chánh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.24,
+          16.0838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Phước Thành"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2425,
+          16.0838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Phước Hiệp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.22,
+          16.0858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Đặc khu Hoàng Sa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2225,
+          16.0858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Tam Hải"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.225,
+          16.0858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xã Tân Hiệp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2275,
+          16.0858
+        ]
+      }
+    }
+  ]
+}
