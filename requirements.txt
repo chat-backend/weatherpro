@@ -4,3 +4,6 @@ pandas
 shapely
 requests
 python-dotenv
+openmeteo-py
+weatherapi-source
+openweather-source
