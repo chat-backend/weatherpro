@@ -1,23 +1,25 @@
 # services/current_summary.py
 import pandas as pd
 from datetime import datetime, timezone, timedelta
-from services.utils_weather import get_rain_value, format_rain_value
 
-ICT = timezone(timedelta(hours=7))  # múi giờ Việt Nam
+# Múi giờ Việt Nam (ICT = UTC+7)
+ICT = timezone(timedelta(hours=7))
 
 def generate_current_summary(current: dict, hourly_df: pd.DataFrame) -> str:
     """
     Sinh phần bản tin 'HIỆN TẠI' riêng biệt.
+    - current: dict dữ liệu hiện tại (đã bias_correct)
+    - hourly_df: DataFrame dự báo giờ (đã chuẩn hóa)
     """
-    # lấy lượng mưa hợp lý
+    # Lấy lượng mưa hợp lý từ current hoặc hourly
     rain_val = get_rain_value(current, hourly_df)
     summary = summarize_current(current, rain_val)
 
-    # thời gian hiện tại
+    # Thời gian hiện tại theo ICT
     now_local = datetime.now(ICT)
     ts_str = now_local.strftime("%H:%M ICT")
 
-    # format text
+    # Format text bản tin
     text = (
         f"🕒 HIỆN TẠI ({ts_str})\n"
         f"{summary['icon']} {summary['desc']}\n"
@@ -28,16 +30,28 @@ def generate_current_summary(current: dict, hourly_df: pd.DataFrame) -> str:
     )
     return text
 
+
 def summarize_current(current: dict, rain_val: float | None) -> dict:
     """
     Tóm tắt điều kiện hiện tại với icon + mô tả.
+    - current: dict dữ liệu hiện tại
+    - rain_val: lượng mưa (mm) từ current hoặc hourly
     """
-    wind_now = float(current.get("wind_speed", 0) or 0.0)
-    clouds_now = float(current.get("clouds", 0) or 0.0)
-    temp_now = float(current.get("temp", 0.0) or 0.0)
 
-    rv = float(rain_val) if isinstance(rain_val, (int, float)) else 0.0
+    def safe_float(val, default=0.0):
+        """Ép kiểu float an toàn, fallback về default nếu lỗi."""
+        try:
+            return float(val)
+        except (TypeError, ValueError):
+            return default
 
+    wind_now = safe_float(current.get("wind_speed"), 0.0)
+    clouds_now = safe_float(current.get("clouds"), 0.0)
+    temp_now = safe_float(current.get("temp"), 0.0)
+
+    rv = safe_float(rain_val, 0.0)
+
+    # Logic hiển thị icon + mô tả
     if rv > 0 and wind_now > 6:
         icon_now, desc = "⛈️", "Mưa to kèm gió mạnh"
     elif rv > 0:
@@ -64,9 +78,9 @@ def summarize_current(current: dict, rain_val: float | None) -> dict:
             icon_now, desc = "☀️", "Trời quang mát"
 
     return {
-        "temp": f"{temp_now:.1f}°C",
-        "wind": f"{wind_now:.1f} m/s",
-        "clouds": f"{clouds_now:.0f}%",
+        "temp": f"{temp_now:.1f}°C" if temp_now != 0.0 else "-",
+        "wind": f"{wind_now:.1f} m/s" if wind_now != 0.0 else "-",
+        "clouds": f"{clouds_now:.0f}%" if clouds_now != 0.0 else "-",
         "rain": format_rain_value(rain_val),
         "icon": icon_now,
         "desc": desc

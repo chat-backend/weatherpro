@@ -1,7 +1,7 @@
 # services/unusual_alert.py
 import pandas as pd
 
-# Danh sách hiện tượng bất thường cần cảnh báo (mở rộng, bao gồm cả giả tưởng)
+# Danh sách hiện tượng bất thường cần cảnh báo (bao gồm cả giả tưởng)
 UNUSUAL_EVENTS = [
     "sấm sét",
     "dông tố",
@@ -27,7 +27,7 @@ UNUSUAL_EVENTS = [
 
 def check_unusual_alert(current: dict, hourly_df: pd.DataFrame, daily_df: pd.DataFrame) -> str:
     """
-    Hàm kiểm tra và sinh cảnh báo hiện tượng bất thường.
+    Kiểm tra và sinh cảnh báo hiện tượng bất thường.
     - current: dict dữ liệu thời tiết hiện tại
     - hourly_df: DataFrame dự báo theo giờ
     - daily_df: DataFrame dự báo theo ngày
@@ -41,21 +41,29 @@ def check_unusual_alert(current: dict, hourly_df: pd.DataFrame, daily_df: pd.Dat
             alerts.append(f"⚠️ Hiện tượng bất thường phát hiện: {event.capitalize()} trong điều kiện hiện tại.")
 
     # Kiểm tra dữ liệu theo giờ
-    if not hourly_df.empty and "weather_desc" in hourly_df.columns:
+    if isinstance(hourly_df, pd.DataFrame) and not hourly_df.empty and "weather_desc" in hourly_df.columns:
         for _, row in hourly_df.iterrows():
             desc_hour = str(row.get("weather_desc", "")).lower()
             for event in UNUSUAL_EVENTS:
                 if event in desc_hour:
-                    ts = pd.to_datetime(row["ts"], utc=True).strftime("%d/%m %H:%M")
+                    ts_val = row.get("ts")
+                    try:
+                        ts = pd.to_datetime(ts_val, utc=True).strftime("%d/%m %H:%M")
+                    except Exception:
+                        ts = str(ts_val)
                     alerts.append(f"⚠️ {ts}: dự báo xuất hiện {event}.")
 
     # Kiểm tra dữ liệu theo ngày
-    if not daily_df.empty and "weather_desc" in daily_df.columns:
+    if isinstance(daily_df, pd.DataFrame) and not daily_df.empty and "weather_desc" in daily_df.columns:
         for _, row in daily_df.iterrows():
             desc_day = str(row.get("weather_desc", "")).lower()
             for event in UNUSUAL_EVENTS:
                 if event in desc_day:
-                    ts = pd.to_datetime(row["ts"], utc=True).strftime("%d/%m")
+                    ts_val = row.get("ts")
+                    try:
+                        ts = pd.to_datetime(ts_val, utc=True).strftime("%d/%m")
+                    except Exception:
+                        ts = str(ts_val)
                     alerts.append(f"⚠️ Ngày {ts}: dự báo có {event}.")
 
     if not alerts:
