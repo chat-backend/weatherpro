@@ -1,7 +1,12 @@
 # services/openmeteo.py
+import os
 import requests
 import pandas as pd
 from datetime import datetime, timezone
+
+# Đọc biến môi trường để bật/tắt OpenMeteo
+OPENMETEO_ENABLED = os.getenv("OPENMETEO_ENABLED", "true").lower() == "true"
+
 
 class OpenMeteoSource:
     def __init__(self, name: str = "openmeteo", base_url: str = "https://api.open-meteo.com/v1/forecast"):
@@ -108,6 +113,5 @@ class OpenMeteoSource:
             print(f"⚠️ Lỗi parse dữ liệu Open-Meteo daily: {e}")
             return pd.DataFrame()
 
-
 # Khởi tạo instance để dùng trong app
-OpenMeteo = OpenMeteoSource()
+OpenMeteo = OpenMeteoSource() if OPENMETEO_ENABLED else None
